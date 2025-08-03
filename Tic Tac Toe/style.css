@@ -1,0 +1,25 @@
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+
+:root{
+    --white: #fff;
+    --black: #000;
+    --border-clr: rgba(255, 255, 255, 0.25);
+    --bg-clr: rgba(255, 255, 255, 0.15);
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    /* background: linear-gradient(90deg, rgba(18, 18, 18, 1) 100%, rgba(255, 0, 0, 1) 100%); */
+    background: linear-gradient(90deg, rgba(6, 6, 6, 1) 100%, rgba(7, 58, 187, 1) 100%, rgba(6, 6, 6, 1) 100%, rgba(6, 6, 6, 1) 100%);
+    
+}
+
